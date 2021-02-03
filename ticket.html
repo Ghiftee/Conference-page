@@ -43,28 +43,49 @@
 
 
   <!-- mobile view -->
-<section class="d-flex d-sm-flex d-md-flex d-lg-none">
-  <img src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image" style="width: 100%; height: 500px;">
-  <!-- <nav id="nav-sm" class="container-fluid d-block d-lg-none position-sticky">
-    <a href="#">
-      <i class="fas fa-bars fa-lg bars"></i>
-    </a>
-  </nav> -->
+
+  <nav id="nav-sm" class="dropdown container-fluid d-sm-flex d-lg-none">
+    <i id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" class="fas fa-bars fa-lg bars"></i>
+  </a>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <li><a class="dropdown-item text-muted" href="index.html">Home</a></li>
+  <li><a class="dropdown-item text-muted" href="about.html">About</a></li>
+  <li><a class="dropdown-item text-muted" href="ticket.html">Get Ticket</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="main-page">
+    <img src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image"
+      style="width: 100%; height: 500px" />
     <div class="center">
-      <p class="first-p">"Hello, Sharing World!"</p>
-      <h1 class="theme fw-bold">
-        The<br>
-        Global Cloud <br>
-        Conference 2021
-      </h1>
+      <div>
+        <p class="first-p">"Hello, Sharing World!"</p>
+        <h1 class="theme fw-bold">
+          The<br>
+          Global Cloud <br>
+          Conference 2021
+        </h1>
+      </div>
+      <div>
+        <p class="second-p">
+          A joyful celebration believing in the value of openness and sharing,
+          creating <br />
+          a positive change with people from over 80 countries is taking place
+          in October, in Korea.
+        </p>
+      </div>
+      <div>
+        <h2>2015.10.15(THU) ~ 16(FRI)</h2>
+        <p class="third-p">
+          @ National Museum of Nigeria, Art Center Lagos and More
+        </p>
+      </div>
     </div>
-</section>
-
+  </div>
 <br>
 <br>
 <br>
-
-
 <!-- large screen -->
   <div class="ticket-page">
     <br>
@@ -212,20 +233,19 @@
         </div>
         <div class="lower-footer">
           <ul class="d-flex list-unstyled">
-            <li>Mkritch Sgr</li>
-            <li>Nkiruka Awo</li>
-            <li>Mahmoud Moh</li>
-            <li>Lamia Sri</li>
-            <li>Abigeal Irn</li>
+            <li class="fw-bold">Google</li>
+            <li class="fw-bold">mozilla</li>
+            <li class="fw-bold">NAVER</li>
+            <li class="fw-bold">daumkakao</li>
           </ul>
         </div>
     </div>
 
 <footer>
         <div class="footer2 d-none d-sm-none d-md-none d-lg-flex">
-            <div class="footer2-one">
-                <img class="footer-svg" src="img/cc.logo.white.svg" alt="cc.logo white">
-            </div>
+          <div class="footer2-one">
+            <h1 class="text-dark fw-bold">GiGi</h1>
+          </div>
             <div class="footer2-two">
                 <p>2015, creative common korea. Some rights reserved</p>
                 <p>，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br> 。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
@@ -233,8 +253,10 @@
         </div>
     
 </footer>
-
-  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

@@ -16,15 +16,14 @@
   margin-right: 20px;
 }
 
-#nav_bar_phone {
-  background-color: #f5f5f5;
-  width: 100%;
-  height: 50px;
+#nav-sm {
+  background-color: #d3d3d3;
+  height: 30px;
+  /* margin-bottom: 10px; */
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 3;
-  display: grid;
 }
 
 #dropdownMenuLink:hover {
@@ -60,12 +59,13 @@
 }
 
 .first-p {
-color: #ec5242;
-font-size: 20px;
+  color: #ec5242;
+  font-size: 20px;
 }
 
 .theme {
   color: #ec5242;
+  font-size: 35px;
   text-transform: uppercase;
   font-family: 'cocogoose', sans-serif;
 }
@@ -89,7 +89,16 @@ font-size: 20px;
 
 .row-one {
   border: 1px solid #272a31;
+  border-radius: 10px;
   background-color: gray;
+}
+
+.row-one > div {
+  margin-top: 20px;
+}
+
+.row-one > h4 {
+  font-size: 20px;
 }
 
 .end-title {
@@ -98,7 +107,7 @@ font-size: 20px;
   position: relative;
 }
 
-.end-title>hr {
+.end-title > hr {
   position: absolute;
   width: 68%;
   margin-left: 36px;
@@ -175,58 +184,6 @@ font-size: 20px;
   color: #ec5242;
 }
 
-/* My featured speakers */
-.image1 {
-  max-width: 40%;
-}
-
-.image2 {
-  width: 100px;
-  bottom: -95%;
-  left: 2.5%;
-  z-index: 1;
-
-}
-
-.image3 {
-  width: 100px;
-  z-index: 1;
-  right: 89%;
-  bottom: -125%;
-}
-
-.image4 {
-  width: 100px;
-  z-index: 1;
-  bottom: -155%;
-  right: 89%;
-}
-
-.image5 {
-  width: 100px;
-  z-index: 1;
-  left: 54%;
-  bottom: -126%;
-}
-
-.image6 {
-  width: 100px;
-  z-index: 1;
-  left: 54%;
-  top: 180%;
-}
-
-.image7 {
-  width: 100px;
-  z-index: 1;
-  left: 54%;
-  top: 240%;
-}
-
-.content {
-  margin-right: 100px;
-}
-
 /* Footer one */
 .footer1 {
   display: flex;
@@ -255,7 +212,6 @@ font-size: 20px;
 
 .lower-footer {
   color: #d3d3d3;
-  flex-grow: 1;
   display: flex;
   justify-items: center;
   padding-top: 20px;
@@ -267,10 +223,6 @@ font-size: 20px;
 }
 
 /* footer 2 */
-footer {
-  margin-top: ;
-}
-
 .footer2 {
   display: flex;
   background-color: #d3d3d3;
@@ -306,9 +258,8 @@ footer {
 }
 
 .main-img {
-  padding-top: 20px;
   border: 1px solid #555;
-  margin: 30px;
+  margin-top: 10px;
 }
 
 /* About page profiles */
@@ -351,10 +302,9 @@ footer {
   margin-top: -72px;
 }
 
-.ticket-page > ul {
-  border: 1px solid black;
-  border-radius: 25px;
-  border-width: 50%;
+.ticket-page > ul > li {
+  list-style: square;
+  color: #ec5242;
 }
 
 .table {
@@ -375,18 +325,18 @@ footer {
   margin-top: 50px;
 }
 
-.ticketpage-second-part > h1{
+.ticketpage-second-part > h1 {
   margin-bottom: 50px;
 }
 
 .ticketpage-second-part > ul {
   margin-bottom: 50px;
-  border: 1px solid #d3d3d3;
-  border-radius: 25px;
-  border-width: 50%;
+  list-style: square;
+  color: #ec5242;
 }
 
-.first-form, .second-form {
+.first-form,
+.second-form {
   border: 1px solid gray;
 }
 
@@ -447,8 +397,24 @@ footer {
 
   .about1-first-text h4 {
     width: 100%;
-    /* text-align: center; */
     display: block;
   }
 
+  .row-one > div > i {
+    display: none;
+  }
+
+  .row-one > h4 {
+    margin-right: 20px;
+    align-content: center;
+  }
+
+  .text-center > hr,
+  .end-title > hr {
+    display: none;
+  }
+
+  .ticket-page > ul > li {
+    list-style: none;
+  }
 }
