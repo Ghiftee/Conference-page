@@ -45,14 +45,12 @@
   <!-- mobile view -->
 
   <nav id="nav-sm" class="dropdown container-fluid d-sm-flex d-lg-none">
-    <i id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" class="fas fa-bars fa-lg bars"></i>
-  </a>
+    <i id="dropdownMenuLink" role="link" data-bs-toggle="dropdown" aria-expanded="false" class="fas fa-bars fa-lg bars"></i>
 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
   <li><a class="dropdown-item text-muted" href="index.html">Home</a></li>
   <li><a class="dropdown-item text-muted" href="about.html">About</a></li>
   <li><a class="dropdown-item text-muted" href="ticket.html">Get Ticket</a></li>
 </ul>
-</div>
 </nav>
 
 <div class="main-page">
@@ -133,7 +131,7 @@
     <div class="d-flex d-sm-flex d-md-flex flex-column d-lg-none small-form text-center">
       <h1>Select your lunch</h1>
       <form action="#">
-      <label for="Breakfast" class="fw-bold"> Please choose a first-course option</label>
+      <label for="breakfast" class="fw-bold"> Please choose a first-course option</label>
       <br>
       <br>
       <select name="breakfast" id="breakfast">
@@ -146,10 +144,10 @@
       <br>
       <br>
       <form action="POST">
-        <label for="Breakfast" class="fw-bold"> Please choose a dessert option</label>
+        <label for="dessert" class="fw-bold"> Please choose a dessert option</label>
         <br>
         <br>
-        <select name="breakfast" id="breakfast">
+        <select name="breakfast" id="dessert">
           <option value="Menu1">Menu 1</option>
           <option value="Menu2">Menu 2</option>
           <option value="Menu3">Menu 3</option>
@@ -179,15 +177,15 @@
         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
       </div>
       <div class="col-2">
-        <label class="form-check-label" for="flexRadioDefault1">Menu 2</label>
+        <label class="form-check-label" for="flexRadioDefault2">Menu 2</label>
         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
       </div>
       <div class="col-2">
-        <label class="form-check-label" for="flexRadioDefault1">Menu 3</label>
+        <label class="form-check-label" for="flexRadioDefault3">Menu 3</label>
         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
       </div>
       <div class="col-2">
-        <label class="form-check-label" for="flexRadioDefault1">Menu 4</label>
+        <label class="form-check-label" for="flexRadioDefault4">Menu 4</label>
         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
       </div>
       <div class="col-2">
