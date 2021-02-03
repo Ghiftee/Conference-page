@@ -358,7 +358,7 @@
   margin-left: 400px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .main-img {
     padding-top: 20px;
     border: 1px solid #555;
