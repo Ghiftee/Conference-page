@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <title>Tickets Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/f550d44231.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- first nav -->
+  <nav id="nav-lg" class="container-fluid bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
+    <ul class="list-unstyled d-flex justify-content-end">
+      <li>
+        <a href="#" class="text-white"><i class="fab fa-facebook-square fa-lg"></i></a>
+      </li>
+      <li>
+        <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+      </li>
+      <li><a href="#" class="text-decoration-none text-white">English</a></li>
+      <li><a href="#" class="text-decoration-none text-white">My Page</a></li>
+      <li><a href="#" class="text-decoration-none text-white">Logout</a></li>
+    </ul>
+  </nav>
+
+<!-- second nav -->
+
+  <nav class="nav2 container-fluid d-lg-flex d-none d-sm-none d-md-none">
+    <div class="nav2-first-items container">
+      <img style="height: 70px" src="img/cc-global.png" alt="ccglobal-logo" />
+    </div>
+
+    <div class="nav2-second-items">
+      <ul class="nav2-second-items-ul d-flex list-unstyled align-items-center">
+        <li>
+          <a href="index.html">
+            <p>Home</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>Join</p>
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+            <p>About</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>News</p>
+          </a>
+        </li>
+        <li>
+          <a href="ticket.html">
+            <p>Ticket</p>
+          </a>
+        </li>
+        <li class="nav2-last-items">
+          <p>CC campaign</p>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- mobile view -->
+<section class="d-flex d-sm-flex d-md-flex d-lg-none">
+  <img src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image" style="width: 100%; height: 500px;">
+  <!-- <nav id="nav-sm" class="container-fluid d-block d-lg-none position-sticky">
+    <a href="#">
+      <i class="fas fa-bars fa-lg bars"></i>
+    </a>
+  </nav> -->
+    <div class="center">
+      <p class="first-p">"Hello, Sharing World!"</p>
+      <h1>
+        CREATIVE COMMONS <br />
+        GLOBAL SUMMIT 2015
+      </h1>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+
+
+<!-- large screen -->
+  <div class="ticket-page">
+    <h1 class="text-center">Select Tickets</h1>
+    <ul class="d-flex justify-content-center container">
+      <li>STEP 1 - Please select the day you want to join the CC Global Summit 2015</li>
+    </ul>
+    <!-- table -->
+    <table class="table container table-bordered table-hover position-relative">
+      <thead class="table-dark text-center">
+        <tr>
+          <th>Ticket</th>
+          <th>1-Day-Ticket</th>
+          <th colspan="2">2-Day-Ticket</th>
+          <th>CC Affiliate/Partners</th>
+        </tr>
+      </thead>
+      <tbody class="text-center">
+        <tr>
+          <td>Date</td>
+          <td>15. Oct(Thu)</td>
+          <td>16. Oct(Fri)</td>
+          <td>15-16. Oct(Thu-Fri)</td>
+          <td>15-16. Oct (Thu-Fri)</td>
+        </tr>
+        <tr>
+          <td>Normal</td>
+          <td><s>W</s>70,000</td>
+          <td><s>W</s>70,000</td>
+          <td><s>W</s>100,000</td>
+          <td><s>W</s>0</td>
+        </tr>
+        <tr>
+          <td>Students</td>
+          <td><s>W</s>30,000</td>
+          <td><s>W</s>30,000</td>
+          <td><s>W</s>50,000</td>
+          <td><s>W</s>0</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- small screen -->
+    <div class="d-flex d-sm-flex d-md-flex flex-column d-lg-none small-form text-center">
+      <h1>Select your lunch</h1>
+      <form action="#">
+      <label for="Breakfast" class="fw-bold"> Please choose a first-course option</label>
+      <br>
+      <br>
+      <select name="breakfast" id="breakfast">
+        <option value="Menu1">Menu 1</option>
+        <option value="Menu2">Menu 2</option>
+        <option value="Menu3">Menu 3</option>
+        <option value="Menu4">Menu 4</option>
+      </select>
+      </form>
+      <br>
+      <br>
+      <form action="POST">
+        <label for="Breakfast" class="fw-bold"> Please choose a dessert option</label>
+        <br>
+        <select name="breakfast" id="breakfast">
+          <option value="Menu1">Menu 1</option>
+          <option value="Menu2">Menu 2</option>
+          <option value="Menu3">Menu 3</option>
+          <option value="Menu4">Menu 4</option>
+        </select>
+        </form>
+      </div>
+    <br>
+    <div class="ticketarrow d-none d-sm-none d-md-none d-lg-block">
+      <img src="../Conference-page/assets/images/arrow-removebg-preview.png" alt="Error loading image">
+    </div>
+  </div>
+<!-- Lunch section -->
+  <div class="ticketpage-second-part container-fluid d-none d-sm-none d-md-none d-lg-block">
+    <h1 class="text-center">Select Your Lunch</h1>
+    <ul class="d-flex justify-content-center container">
+      <li>STEP 2 - Please select your lunch registered day. There will be no further cost for lunch.</li>
+    </ul>
+
+    <div class="first-form">
+    <h2 class="text-center serving">First Course</h2>
+    <form class="row g-3 form-input">
+      <div class="col-2">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 1</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 2</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 3</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 4</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+      </div>
+    </form>
+  </div>
+<!-- more lunch options -->
+  <div class="second-form d-none d-sm-none d-md-none d-lg-block">
+    <h2 class="text-center serving">Dessert</h2>
+    <form class="row g-3">
+      <div class="col-2">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 1</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 2</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 3</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+        <label class="form-check-label" for="flexRadioDefault1">Menu 4</label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      </div>
+      <div class="col-2">
+      </div>
+    </form>
+  </div>
+  <div>
+    <button class="btn submit-button text-white">SUBMIT FORM </button>
+  </div>
+  <br>
+  </div>
+  <!-- Footer -->
+    <div class="footer1">
+        <div class="footer1-header">
+            <h5>Partner</h5>
+            <div class="border-bottom-footer"></div>
+        </div>
+        <div class="lower-footer">
+          <ul class="d-flex list-unstyled">
+            <li>Mkritch Sgr</li>
+            <li>Nkiruka Awo</li>
+            <li>Mahmoud Moh</li>
+            <li>Lamia Sri</li>
+            <li>Abigeal Irn</li>
+          </ul>
+        </div>
+    </div>
+
+<footer>
+        <div class="footer2 d-none d-sm-none d-md-none d-lg-flex">
+            <div class="footer2-one">
+                <img class="footer-svg" src="img/cc.logo.white.svg" alt="cc.logo white">
+            </div>
+            <div class="footer2-two">
+                <p>2015, creative common korea. Some rights reserved</p>
+                <p>，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br> 。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
+            </div>
+        </div>
+    
+</footer>
+
+  
+</body>
+
+</html>

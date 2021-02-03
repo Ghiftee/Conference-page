@@ -43,22 +43,313 @@
   width: 150px;
 }
 
-
 .nav2-second-items-ul li:first-child p {
   color: #ec5242;
 }
 
-/* .main-page {
-  background-image: url('https://i.pinimg.com/originals/83/a6/8e/83a68ede151a440ec4e433ca578daaa3.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  margin-top: -25px;
-  height: ;
-} */
+.main-page {
+  position: relative;
+}
 
-.first-p {
-  padding-bottom: 10px;
+.center {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  position: relative;
+}
+
+.title>hr {
+  position: absolute;
+  width: 10%;
+  color: red;
+  height: 10%;
+  margin-left: 120px;
+  margin-top: 3px;
+}
+
+.row-one {
+  border: 1px solid #272a31;
+  background-color: gray;
+}
+
+.end-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.end-title>hr {
+  position: absolute;
+  width: 68%;
+  margin-left: 36px;
+  margin-top: 0;
+}
+
+.image1 {
+  max-width: 40%;
+
+}
+
+.image2 {
+  width: 100px;
+  bottom: -95%;
+  left: 2.5%;
+  z-index: 1;
+
+}
+
+.image3 {
+  width: 100px;
+  z-index: 1;
+  right: 89%;
+  bottom: -125%;
+}
+
+.image4 {
+  width: 100px;
+  z-index: 1;
+  bottom: -155%;
+  right: 89%;
+}
+
+.image5 {
+  width: 100px;
+  z-index: 1;
+  left: 54%;
+  bottom: -126%;
+}
+
+.image6 {
+  width: 100px;
+  z-index: 1;
+  left: 54%;
+  top: 180%;
+}
+
+.image7 {
+  width: 100px;
+  z-index: 1;
+  left: 54%;
+  top: 240%;
+}
+
+.content {
+  margin-right: 100px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(43, 40, 40);
+  margin-top: 100px;
+}
+
+.footer1-header {
+  position: relative;
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(184, 184, 184);
   padding-top: 20px;
 }
 
+.border-bottom-footer {
+  position: absolute;
+  height: 2px;
+  width: 30%;
+  background-color: #e96658;
+  top: 48px;
+  left: 20px;
+}
+
+.lower-footer {
+  color: #d3d3d3;
+  flex-grow: 1;
+  display: flex;
+  justify-items: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.lower-footer ul li {
+  margin-right: 10px;
+}
+
+/* footer 2 */
+footer {
+  margin-top: ;
+}
+
+.footer2 {
+  display: flex;
+  background-color: #d3d3d3;
+  justify-content: center;
+}
+
+.footer2-elements {
+  padding-top: 50px;
+  display: flex;
+  color: rgb(184, 184, 184);
+}
+
+.footer2-two {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  font-size: 15px;
+  color: black;
+}
+
+.footer-svg {
+  height: 60px;
+}
+
+/* about page */
+.main-about {
+  margin-top: 70px;
+  border-bottom: 1px solid #555;
+}
+
+.main1 {
+  width: 50%;
+}
+
+/* .border-bottom-main {
+  height: 2px;
+  width: 10%;
+  background-color: #e96658;
+  top: 48px;
+  left: 200px;
+} */
+
+.main-img {
+  padding-top: 20px;
+  border: 1px solid #555;
+  margin: 30px;
+}
+
+/* profiles */
+.profiles {
+  margin-top: 50px;
+}
+
+.profiles h4 {
+  font-size: 22px;
+  color: #272a31;
+  font-weight: 900;
+}
+
+.border-bottom-profiles {
+  position: absolute;
+  height: 2px;
+  width: 10%;
+  background-color: #e96658;
+  top: 30px;
+  left: 150px;
+}
+
+.profiles2 {
+  display: flex;
+  justify-content: center;
+}
+
+.profiles2-one {
+  position: relative;
+  padding-right: 30px;
+}
+
+.profiles2-one-text {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.profiles2-one img {
+  height: 200px;
+  width: 350px;
+}
+
+.ticket-page {
+  background-color: #d3d3d3;
+  margin-top: -72px;
+}
+
+
+.table {
+  margin-bottom: 50px;
+}
+
+.ticketarrow {
+  position: absolute;
+  top: 65%;
+  left: 46%;
+}
+
+.ticketarrow > img {
+  height: 50px;
+}
+
+.ticketpage-second-part {
+  margin-top: 50px;
+}
+
+.ticketpage-second-part > h1{
+  margin-bottom: 50px;
+}
+
+.ticketpage-second-part > ul {
+  margin-bottom: 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 25px;
+  border-width: 50%;
+}
+
+.ticket-page > ul {
+  border: 1px solid black;
+  border-radius: 25px;
+  border-width: 50%;
+}
+
+.first-form, .second-form {
+  border: 1px solid gray;
+}
+
+.first-form {
+  margin-bottom: 20px;
+}
+
+.second-form {
+  margin-bottom: 20px;
+}
+
+.serving {
+  background-color: #d3d3d3;
+}
+
+.submit-button {
+  border: 1px solid #e96658;
+  background-color: #e96658;
+  width: 30%;
+  align-content: center;
+  margin-left: 400px;
+}
+
+@media screen and (max-width:768px) {
+  .profiles {
+    align-items: center;
+  }
+
+  .profiles2 {
+    flex-wrap: wrap;
+  }
+}
 
