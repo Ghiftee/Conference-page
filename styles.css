@@ -1,3 +1,13 @@
+@font-face {
+  font-family: cocogoose;
+  src: url('../Conference-page/fonts/Cocogoose\ Pro\ Thin-trial.ttf');
+}
+
+/* Black Nav */
+#nav-lg {
+  height: 30px;
+}
+
 #nav-lg ul {
   margin-right: 100px;
 }
@@ -6,47 +16,38 @@
   margin-right: 20px;
 }
 
-/* #nav-2 ul li {
-  margin-right: 50px;
-} */
-
-#nav-lg {
-  height: 30px;
+#nav_bar_phone {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: grid;
 }
 
-/* .nav2-left > img {
-  height: 50px;
-  width: 100px;
+#dropdownMenuLink:hover {
+  cursor: pointer;
+  width: 35px;
+}
+
+/* Second Nav */
+.nav-2-left > h1 {
   margin-left: 100px;
   margin-right: 350px;
-} */
-
-.nav2 {
-  background-color: red;
+  margin-top: 10px;
 }
 
-.nav2-second-items-ul a {
-  color: #272a31;
-  text-decoration: none;
+.nav-2-right {
+  margin-top: 20px;
 }
 
-.nav2-second-items-ul li {
-  padding-right: 20px;
+#nav-2 ul li a {
+  margin-right: 200px;
 }
 
-.nav2-last-items p {
-  display: flex;
-  border: 2px solid #ec5242;
-  color: #ec5242;
-  font-weight: 700;
-  padding: 10px;
-  width: 150px;
-}
-
-.nav2-second-items-ul li:first-child p {
-  color: #ec5242;
-}
-
+/* Main home page */
 .main-page {
   position: relative;
 }
@@ -58,6 +59,17 @@
   transform: translate(-50%, -50%);
 }
 
+.first-p {
+color: #ec5242;
+font-size: 20px;
+}
+
+.theme {
+  color: #ec5242;
+  text-transform: uppercase;
+  font-family: 'cocogoose', sans-serif;
+}
+
 .title {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -65,7 +77,8 @@
   position: relative;
 }
 
-.title>hr {
+/* Program */
+.title > hr {
   position: absolute;
   width: 10%;
   color: red;
@@ -92,9 +105,79 @@
   margin-top: 0;
 }
 
+/* Featured speakers */
+.article2 {
+  margin-top: 100px;
+}
+
+.article2-header {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.border-bottom {
+  position: absolute;
+  height: 3px;
+  width: 5%;
+  background-color: #ec5242;
+  top: 35px;
+}
+
+.article2-articles {
+  display: grid;
+  grid-template-columns: repeat(2, 43%);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 100px;
+  grid-gap: 50px;
+}
+
+.article-elements {
+  display: flex;
+}
+
+.article2-articles1 {
+  position: relative;
+}
+
+.second-img {
+  height: 100px;
+}
+
+.article-elements-img {
+  position: absolute;
+  height: 70%;
+  width: 120px;
+  z-index: 1;
+  left: 18px;
+}
+
+.article-elements-img-1 {
+  position: absolute;
+  height: 75px;
+  width: 70px;
+  top: -25px;
+}
+
+.div2 {
+  margin-left: 150px;
+  font-size: small;
+  color: #272a31;
+}
+
+.semi-title {
+  position: relative;
+  font-size: 18px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+/* My featured speakers */
 .image1 {
   max-width: 40%;
-
 }
 
 .image2 {
@@ -144,6 +227,7 @@
   margin-right: 100px;
 }
 
+/* Footer one */
 .footer1 {
   display: flex;
   flex-direction: column;
@@ -164,7 +248,7 @@
   position: absolute;
   height: 2px;
   width: 30%;
-  background-color: #e96658;
+  background-color: #ec5242;
   top: 48px;
   left: 20px;
 }
@@ -212,22 +296,14 @@ footer {
 }
 
 /* about page */
-.main-about {
+.about {
   margin-top: 70px;
   border-bottom: 1px solid #555;
 }
 
-.main1 {
+.about1 {
   width: 50%;
 }
-
-/* .border-bottom-main {
-  height: 2px;
-  width: 10%;
-  background-color: #e96658;
-  top: 48px;
-  left: 200px;
-} */
 
 .main-img {
   padding-top: 20px;
@@ -235,7 +311,7 @@ footer {
   margin: 30px;
 }
 
-/* profiles */
+/* About page profiles */
 .profiles {
   margin-top: 50px;
 }
@@ -244,15 +320,6 @@ footer {
   font-size: 22px;
   color: #272a31;
   font-weight: 900;
-}
-
-.border-bottom-profiles {
-  position: absolute;
-  height: 2px;
-  width: 10%;
-  background-color: #e96658;
-  top: 30px;
-  left: 150px;
 }
 
 .profiles2 {
@@ -278,11 +345,17 @@ footer {
   width: 350px;
 }
 
+/* Ticket page */
 .ticket-page {
   background-color: #d3d3d3;
   margin-top: -72px;
 }
 
+.ticket-page > ul {
+  border: 1px solid black;
+  border-radius: 25px;
+  border-width: 50%;
+}
 
 .table {
   margin-bottom: 50px;
@@ -290,7 +363,7 @@ footer {
 
 .ticketarrow {
   position: absolute;
-  top: 65%;
+  top: 77%;
   left: 46%;
 }
 
@@ -313,12 +386,6 @@ footer {
   border-width: 50%;
 }
 
-.ticket-page > ul {
-  border: 1px solid black;
-  border-radius: 25px;
-  border-width: 50%;
-}
-
 .first-form, .second-form {
   border: 1px solid gray;
 }
@@ -336,20 +403,52 @@ footer {
 }
 
 .submit-button {
-  border: 1px solid #e96658;
-  background-color: #e96658;
+  border: 1px solid #ec5242;
+  background-color: #ec5242;
   width: 30%;
   align-content: center;
   margin-left: 400px;
 }
 
 @media screen and (max-width:768px) {
-  .profiles {
-    align-items: center;
+  .main-img {
+    padding-top: 20px;
+    border: 1px solid #555;
+    margin-left: 20px;
+    width: 80%;
   }
 
   .profiles2 {
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-}
 
+  .profiles2-one {
+    position: relative;
+    padding-left: 60px;
+    padding-right: 15px;
+    margin-top: 10%;
+  }
+
+  .profiles2-one-text {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .article2-articles {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .about1-first-text h4 {
+    width: 100%;
+    /* text-align: center; */
+    display: block;
+  }
+
+}

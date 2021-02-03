@@ -28,44 +28,19 @@
 
 <!-- second nav -->
 
-  <nav class="nav2 container-fluid d-lg-flex d-none d-sm-none d-md-none">
-    <div class="nav2-first-items container">
-      <img style="height: 70px" src="img/cc-global.png" alt="ccglobal-logo" />
-    </div>
+<nav id="nav-2" class="container-fluid d-none d-sm-none d-md-none d-lg-flex">
+  <div class="nav-2-left justify-content-start">
+   <h1 class="text-dark fw-bold">GiGi</h1>
+  </div>
+  <div class="nav-2-right">
+    <ul class="list-unstyled d-flex text-decoration-none">
+      <li><a href="index.html" class="text-decoration-none text-muted fw-bold">Home</a></li>
+      <li><a href="about.html" class="text-decoration-none text-muted fw-bold">About</a></li>
+     <li><a href="ticket.html"><button class="btn btn-outline-dark fw-bold" type="submit">GET TICKET</button></a></li> 
+    </ul>
+  </div>
+</nav>
 
-    <div class="nav2-second-items">
-      <ul class="nav2-second-items-ul d-flex list-unstyled align-items-center">
-        <li>
-          <a href="index.html">
-            <p>Home</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Join</p>
-          </a>
-        </li>
-        <li>
-          <a href="about.html">
-            <p>About</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>News</p>
-          </a>
-        </li>
-        <li>
-          <a href="ticket.html">
-            <p>Ticket</p>
-          </a>
-        </li>
-        <li class="nav2-last-items">
-          <p>CC campaign</p>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
   <!-- mobile view -->
 <section class="d-flex d-sm-flex d-md-flex d-lg-none">
@@ -77,9 +52,10 @@
   </nav> -->
     <div class="center">
       <p class="first-p">"Hello, Sharing World!"</p>
-      <h1>
-        CREATIVE COMMONS <br />
-        GLOBAL SUMMIT 2015
+      <h1 class="theme fw-bold">
+        The<br>
+        Global Cloud <br>
+        Conference 2021
       </h1>
     </div>
 </section>
@@ -91,10 +67,13 @@
 
 <!-- large screen -->
   <div class="ticket-page">
+    <br>
     <h1 class="text-center">Select Tickets</h1>
+    <br>
     <ul class="d-flex justify-content-center container">
       <li>STEP 1 - Please select the day you want to join the CC Global Summit 2015</li>
     </ul>
+    <br>
     <!-- table -->
     <table class="table container table-bordered table-hover position-relative">
       <thead class="table-dark text-center">
@@ -115,17 +94,17 @@
         </tr>
         <tr>
           <td>Normal</td>
-          <td><s>W</s>70,000</td>
-          <td><s>W</s>70,000</td>
-          <td><s>W</s>100,000</td>
-          <td><s>W</s>0</td>
+          <td><s>N</s>70,000</td>
+          <td><s>N</s>70,000</td>
+          <td><s>N</s>100,000</td>
+          <td><s>N</s>0</td>
         </tr>
         <tr>
           <td>Students</td>
-          <td><s>W</s>30,000</td>
-          <td><s>W</s>30,000</td>
-          <td><s>W</s>50,000</td>
-          <td><s>W</s>0</td>
+          <td><s>N</s>30,000</td>
+          <td><s>N</s>30,000</td>
+          <td><s>N</s>50,000</td>
+          <td><s>N</s>0</td>
         </tr>
       </tbody>
     </table>
@@ -147,6 +126,7 @@
       <br>
       <form action="POST">
         <label for="Breakfast" class="fw-bold"> Please choose a dessert option</label>
+        <br>
         <br>
         <select name="breakfast" id="breakfast">
           <option value="Menu1">Menu 1</option>
@@ -170,7 +150,7 @@
 
     <div class="first-form">
     <h2 class="text-center serving">First Course</h2>
-    <form class="row g-3 form-input">
+    <form class="row form-input">
       <div class="col-2">
       </div>
       <div class="col-2">
