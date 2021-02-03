@@ -1,4 +1,4 @@
-# Week 3 Using Bootstrap
+# Week 4 HTML Capstone Project
 
 > Build responsive project using bootstrap
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 https://uwadonat.github.io/Newsweek/
 
 ## Getting Started
-Microverse Project Week 3, Milestone 1.
+Microverse Project Week 4, Capstone.
 ## Authors
 
 👤 **Gift**
