@@ -3,7 +3,12 @@
   src: url('../Conference-page/fonts/Cocogoose-Pro-thin-trial.ttf');
 }
 
-/* Black Nav */
+.ticketpage-second-part > ul {
+  margin-bottom: 50px;
+  list-style: square;
+  color: #ec5242;
+}
+
 #nav-lg {
   height: 30px;
 }
@@ -19,7 +24,6 @@
 #nav-sm {
   background-color: #d3d3d3;
   height: 30px;
-  /* margin-bottom: 10px; */
   align-items: center;
   position: sticky;
   top: 0;
@@ -327,12 +331,6 @@
 
 .ticketpage-second-part > h1 {
   margin-bottom: 50px;
-}
-
-.ticketpage-second-part > ul {
-  margin-bottom: 50px;
-  list-style: square;
-  color: #ec5242;
 }
 
 .first-form,
