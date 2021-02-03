@@ -2,7 +2,7 @@
 
 > CC Global Summit 2015 page
 
-![screenshot]('assets/images/screenshot.png')
+![screenshot](assets/images/screenshot.png)
 
 Additional description about the project and its features.
 ## Built With
