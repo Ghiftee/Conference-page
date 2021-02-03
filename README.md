@@ -1,8 +1,8 @@
 # Week 4 HTML Capstone Project
 
-> Build responsive project using bootstrap
+> CC Global Summit 2015 page
 
-![screenshot]
+![screenshot]('assets/images/screenshot.png')
 
 Additional description about the project and its features.
 ## Built With
@@ -12,7 +12,7 @@ Additional description about the project and its features.
 - Linter
 
 ## Live Demo
-https://uwadonat.github.io/Newsweek/
+https://ghiftee.github.io/Conference-page/
 
 ## Getting Started
 Microverse Project Week 4, Capstone.
@@ -32,10 +32,8 @@ Feel free to check the [issues page](issues/).
 Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+## Acknowledgements
+Hat tip to Cindy Shin of Behance for the project inspiration and design
 
 ## 📝 License
 
