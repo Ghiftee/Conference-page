@@ -4,19 +4,22 @@
 
 ![screenshot](assets/images/screenshot.png)
 
-Additional description about the project and its features.
 ## Built With
+
 - HTML
 - CSS
 - Bootstrap
 - Linter
 
 ## Live Demo
+
 https://ghiftee.github.io/Conference-page/
 
 ## Getting Started
+
 Microverse Project Week 4, Capstone.
-## Authors
+
+## Author
 
 👤 **Gift**
 
@@ -26,13 +29,12 @@ Microverse Project Week 4, Capstone.
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](issues/).
-
 Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgements
+
 Hat tip to Cindy Shin of Behance for the project inspiration and design
 
 ## 📝 License
