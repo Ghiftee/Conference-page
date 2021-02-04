@@ -248,6 +248,11 @@
 }
 
 /* Footer one */
+.footer-partners-img {
+  height: 50%;
+  width: 100px;
+}
+
 .top-footer {
   align-items: center;
   background-color: rgb(43, 40, 40);
@@ -271,11 +276,11 @@
 .conference-partners {
   color: #d3d3d3;
   padding-top: 20px;
-  margin-bottom: 10px;
+  padding-bottom: -10px;
 }
 
 .conference-partners ul li {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 /* footer 2 */
@@ -507,5 +512,9 @@ table {
 
   .ticket-form {
     background-color: #d3d3d3;
+  }
+
+  .conference-partners ul li {
+    margin-right: 10px;
   }
 }
