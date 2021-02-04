@@ -137,7 +137,7 @@
 }
 
 .middle-header h2 {
-  font-size: 50px;  
+  font-size: 50px;
 }
 
 .middle-header h5 {
@@ -251,7 +251,6 @@
 .footer1 {
   align-items: center;
   background-color: rgb(43, 40, 40);
-  /* margin-top: 100px; */
 }
 
 .footer1-header {
@@ -309,7 +308,7 @@
 }
 
 /* About page profiles */
-.profile-section{
+.profile-section {
   margin-bottom: 100px;
 }
 
@@ -372,7 +371,8 @@ table {
   margin-bottom: 20px;
 }
 
-.form-one, .form-two {
+.form-one, 
+.form-two {
   margin-bottom: 40px;
 }
 
@@ -486,7 +486,7 @@ table {
     list-style: none;
   }
 
-   .middle-header p {
+  .middle-header p {
     background-color: #fff;
     color: #272a31;
     font-weight: 400;
@@ -512,5 +512,4 @@ table {
   .ticket-page {
     background-color: #d3d3d3;
   }
-
 }
