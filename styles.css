@@ -3,7 +3,7 @@
   src: url('../Conference-page/assets/fonts/Cocogoose-Pro-thin-trial.ttf');
 }
 
-.ticketpage-second-part > ul {
+.lunch-section > ul {
   margin-bottom: 50px;
   list-style: square;
   color: #ec5242;
@@ -21,12 +21,12 @@
   margin-right: 20px;
 }
 
-.hero-date {
+.conference-date {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.hero-venue {
+.conference-venue {
   padding-bottom: 30px;
 }
 
@@ -60,52 +60,52 @@
 }
 
 /* Main home page */
-.main-page > img {
+.hero-section > img {
   width: 100%;
   height: 500px;
 }
 
-.center {
+.hero-section-content {
   top: 50%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
 
-.first-p {
+.hero-section-first-p {
   color: #ec5242;
   font-size: 20px;
   margin-top: 40px;
 }
 
-.second-p {
+.hero-section-second-p {
   border: 1px solid #fff;
   background-color: #d3d3d3;
   text-align: center;
 }
 
-.third-p {
+.hero-section-third-p {
   margin-bottom: 20px;
 }
 
-.main-page {
+.hero-section {
   font-family: 'cocogoose', sans-serif;
 }
 
-.theme {
+.conference-theme {
   margin-top: 10px;
   color: #ec5242;
   font-size: 60px;
   text-transform: uppercase;
 }
 
-.title {
+/* Program */
+.main-program {
   margin-top: 30px;
   margin-bottom: 40px;
   font-size: 20px;
 }
 
-/* Program */
-.title > hr {
+.main-program > hr {
   width: 10%;
   color: red;
   height: 10%;
@@ -113,14 +113,14 @@
   margin-top: 3px;
 }
 
-.middle-header p {
+.about-page-section p {
   color: #272a31;
   font-weight: 400;
   border: 1px solid #fff;
   background-color: #d3d3d3;
 }
 
-.middle-header {
+.about-page-section {
   color: #ec5242;
   font-family: 'cocogoose', sans-serif;
   background-image: url('../Conference-page/assets/images/cloud.jpg');
@@ -130,47 +130,47 @@
   padding: 10px;
 }
 
-.middle-header1 {
+.about-page-section-theme {
   margin-top: 40px;
   font-family: 'cocogoose', sans-serif;
   margin-bottom: 40px;
 }
 
-.middle-header h2 {
+.about-page-section h2 {
   font-size: 50px;
 }
 
-.middle-header h5 {
+.about-page-section h5 {
   color: #272a31;
 }
 
-.middle-header-link {
+.about-page-section-link {
   color: #272a31;
   font-size: 25px;
   border-bottom: 1px solid #272a31;
 }
 
-.middle-header2 a:hover {
+.about-page-section-desc a:hover {
   text-decoration: none;
   color: #ec5242;
   font-weight: 700;
 }
 
-.middle-header3 {
+.about-page-section-contact {
   padding: 60px;
 }
 
-.row-one {
+.main-program-schedule {
   border: 1px solid #272a31;
   border-radius: 10px;
   background-color: gray;
 }
 
-.row-one > div {
+.main-program-schedule > div {
   margin-top: 20px;
 }
 
-.row-one > h4 {
+.main-program-schedule > h4 {
   font-size: 20px;
 }
 
@@ -186,11 +186,11 @@
 }
 
 /* Featured speakers */
-.article2 {
+.speakers {
   margin-top: 100px;
 }
 
-.article2-header {
+.featured-speakers-tag {
   font-size: 25px;
   margin-top: -40px;
 }
@@ -202,7 +202,7 @@
   top: 35px;
 }
 
-.article2-articles {
+.featured-speakers-section {
   display: grid;
   grid-template-columns: repeat(2, 43%);
   grid-template-rows: repeat(3, 1fr);
@@ -211,7 +211,7 @@
   margin-bottom: 100px;
 }
 
-.article2-articles1 {
+.featured-speakers-img-section {
   position: relative;
 }
 
@@ -219,7 +219,7 @@
   height: 100px;
 }
 
-.article-elements-img {
+.featured-speakers-profile-img {
   position: absolute;
   height: 70%;
   width: 120px;
@@ -227,20 +227,20 @@
   left: 18px;
 }
 
-.article-elements-img-1 {
+.featured-speakers-profile-img-1 {
   position: absolute;
   height: 75px;
   width: 70px;
   top: -25px;
 }
 
-.div2 {
+.about-speakers {
   margin-left: 150px;
   font-size: small;
   color: #272a31;
 }
 
-.semi-title {
+.speakers-field {
   position: relative;
   font-size: 18px;
   font-style: italic;
@@ -248,12 +248,12 @@
 }
 
 /* Footer one */
-.footer1 {
+.top-footer {
   align-items: center;
   background-color: rgb(43, 40, 40);
 }
 
-.footer1-header {
+.top-footer-heading {
   font-size: 18px;
   font-style: italic;
   color: rgb(184, 184, 184);
@@ -268,71 +268,67 @@
   left: 20px;
 }
 
-.lower-footer {
+.conference-partners {
   color: #d3d3d3;
   padding-top: 20px;
   margin-bottom: 10px;
 }
 
-.lower-footer ul li {
+.conference-partners ul li {
   margin-right: 10px;
 }
 
 /* footer 2 */
-.footer2 {
+.lower-footer {
   background-color: #d3d3d3;
 }
 
-.footer2-two {
+.lower-footer-p {
   padding-left: 30px;
   font-size: 15px;
 }
 
-.footer-svg {
-  height: 60px;
-}
-
 /* about page */
-.about {
-  margin-top: 70px;
-  border-bottom: 1px solid #555;
+.about-logo-section {
+  border-bottom: 1px solid #555; 
 }
 
-.about1 {
+.about-logo-desc {
+  margin-top: 70px;
   width: 50%;
 }
 
-.main-img {
+.about-page-logo {
   border: 1px solid #555;
   margin-top: 10px;
 }
 
-/* About page profiles */
-.profile-section {
+/* About page about-past-conferences */
+.past-conference-section {
   margin-bottom: 100px;
 }
 
-.profiles {
+.about-past-conferences {
   margin-top: 50px;
 }
 
-.profiles h4 {
+.about-past-conferences h4 {
   font-size: 22px;
   color: #272a31;
   font-weight: 900;
 }
 
-.profiles2 {
+.about-past-conferences-flex {
   display: flex;
   justify-content: center;
 }
 
-.profiles2-one {
+.about-past-conferences-details {
   position: relative;
   padding-right: 30px;
 }
 
-.profiles2-one-text {
+.about-past-conferences-details-text {
   position: absolute;
   top: 50px;
   left: 40px;
@@ -340,27 +336,22 @@
   color: #fff;
 }
 
-.profiles2-one img {
+.about-past-conferences-details img {
   height: 200px;
   width: 350px;
 }
 
 /* Ticket page */
-table {
-  border: 3px solid black;
-  margin-top: 40px;
-}
-
-.ticket {
+.ticket-form-action {
   padding-top: 30px;
 }
 
-.ticket-page {
+.ticket-form {
   background-color: #d3d3d3;
   margin-top: -3px;
 }
 
-.ticket-page > ul > li {
+.ticket-form > ul > li {
   list-style: square;
   color: #ec5242;
   margin-top: 30px;
@@ -369,6 +360,11 @@ table {
 .small-form > ul > li {
   color: #ec5242;
   margin-bottom: 20px;
+}
+
+table {
+  border: 3px solid black;
+  margin-top: 40px;
 }
 
 .form-one,
@@ -390,11 +386,11 @@ table {
   height: 50px;
 }
 
-.ticketpage-second-part {
+.lunch-section {
   margin-top: 50px;
 }
 
-.ticketpage-second-part > h2 {
+.lunch-section > h2 {
   margin-bottom: 50px;
 }
 
@@ -407,11 +403,11 @@ table {
   margin-top: 50px;
 }
 
-.lunch {
+.lunch-action-sm {
   margin-bottom: 40px;
 }
 
-.serving {
+.servings {
   background-color: #d3d3d3;
 }
 
@@ -420,37 +416,37 @@ table {
   background-color: #ec5242;
   width: 30%;
   align-content: center;
-  margin: 50px 0 50px 400px;
+  margin: 50px 0 60px 400px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .main-img {
+  .about-page-logo {
     padding-top: 20px;
     border: 1px solid #555;
     margin-left: 20px;
     width: 80%;
   }
 
-  .theme {
+  .conference-theme {
     font-size: 35px;
     margin-top: 20px;
   }
 
-  .profiles2 {
+  .about-past-conferences-flex {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
 
-  .profiles2-one {
+  .about-past-conferences-details {
     position: relative;
     padding-left: 60px;
     padding-right: 15px;
     margin-top: 10%;
   }
 
-  .profiles2-one-text {
+  .about-past-conferences-details-text {
     position: absolute;
     top: 50px;
     left: 90px;
@@ -458,21 +454,21 @@ table {
     color: #fff;
   }
 
-  .article2-articles {
+  .featured-speakers-section {
     grid-template-columns: 1fr;
     margin-top: 50px;
   }
 
-  .about1-first-text h4 {
+  .about-logo-desc-header {
     width: 100%;
     display: block;
   }
 
-  .row-one > div > i {
+  .main-program-schedule > div > i {
     display: none;
   }
 
-  .row-one > h4 {
+  .main-program-schedule > h4 {
     margin-right: 20px;
     align-content: center;
   }
@@ -482,11 +478,11 @@ table {
     display: none;
   }
 
-  .ticket-page > ul > li {
+  .ticket-form > ul > li {
     list-style: none;
   }
 
-  .middle-header p {
+  .about-page-section p {
     background-color: #fff;
     color: #272a31;
     font-weight: 400;
@@ -494,22 +490,22 @@ table {
     margin-top: 8%;
   }
 
-  .middle-header {
+  .about-page-section {
     color: #e96658;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .middle-header h2 {
+  .about-page-section h2 {
     font-size: 40px;
     font-family: 'cocogoose', sans-serif;
   }
 
-  .middle-header3 {
+  .about-page-section-contact {
     font-size: 5px;
   }
 
-  .ticket-page {
+  .ticket-form {
     background-color: #d3d3d3;
   }
 }
