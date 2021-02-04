@@ -15,10 +15,6 @@
 
 https://ghiftee.github.io/Conference-page/
 
-## Getting Started
-
-Microverse Project Week 4, Capstone.
-
 ## Author
 
 👤 **Gift**
