@@ -1,6 +1,6 @@
 @font-face {
   font-family: cocogoose;
-  src: url('../Conference-page/fonts/Cocogoose-Pro-thin-trial.ttf');
+  src: url('../Conference-page/assets/fonts/Cocogoose-Pro-thin-trial.ttf');
 }
 
 .ticketpage-second-part > ul {
@@ -53,6 +53,11 @@
 /* Main home page */
 .main-page {
   position: relative;
+}
+
+.main-page > img {
+  width: 100%;
+  height: 500px;
 }
 
 .center {
