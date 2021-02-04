@@ -11,7 +11,8 @@
 </head>
 
 <body>
-  <nav id="nav-lg" class="container-fluid bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
+  <header>
+  <nav class="container-fluid nav-lg bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
     <ul class="list-unstyled d-flex justify-content-end">
       <li>
         <a href="#" class="text-white"><i class="fab fa-facebook-square fa-lg"></i></a>
@@ -25,7 +26,7 @@
     </ul>
   </nav>
 
-  <nav id="nav-2" class="container-fluid d-none d-sm-none d-md-none d-lg-flex">
+  <nav class="container-fluid nav-2 d-none d-sm-none d-md-none d-lg-flex">
     <div class="nav-2-left justify-content-start">
      <h1 class="text-dark fw-bold">GiGi</h1>
     </div>
@@ -38,8 +39,9 @@
       </ul>
     </div>
   </nav>
+</header>
 
-  <nav id="nav-sm" class="dropdown container-fluid d-xs-flex d-lg-none">
+  <nav class="dropdown nav-sm container-fluid d-xs-flex d-lg-none">
     <i id="dropdownMenuLink" role="link" data-bs-toggle="dropdown" aria-expanded="false" class="fas fa-bars fa-lg bars"></i>
 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
   <li><a class="dropdown-item text-muted" href="index.html">Home</a></li>
@@ -48,40 +50,43 @@
 </ul>
 </nav>
 
-  <section class="main-page">
-    <img src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image">
-    <div class="center">
-      <div>
-        <p class="first-p">"Hello, Sharing World!"</p>
-        <h1 class="theme fw-bold">
-          The<br>
-          Global Cloud <br>
-          Conference 2021
-        </h1>
-      </div>
-      <div>
-        <p class="second-p">
-          A joyful celebration believing in the value of openness and sharing,
-          creating <br />
-          a positive change with people from over 80 countries is taking place
-          in October, in Korea.
-        </p>
-      </div>
-      <div>
-        <h2>2015.10.15(THU) ~ 16(FRI)</h2>
-        <p class="third-p">
-          @ National Museum of Nigeria, Art Center Lagos and More
-        </p>
-      </div>
-    </div>
-  </section>
+<section class="middle-header d-flex flex-column justify-content-center align-items-center">
+
+  <div class="middle-header1">
+      <h2 class="fw-bold">GLOBAL CLOUD <br> CONFERENCE 2021</h2>
+  </div>
+  <div class="middle-header2 d-flex align-items-center text-center">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been
+          the
+          industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of
+          type
+          and
+          scrambled it to make a type specimen book. <br> It has survived not only five centuries, but also
+          the
+          leap
+          into <br> electronic typesetting, remaining essentially unchanged.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been
+          the
+          industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of
+          type
+          and
+          scrambled it to make a type specimen book. <br> It has survived not only five centuries, but also
+          the
+          leap
+          into electronic typesetting, remaining essentially unchanged.</p>
+  </div>
+  <div class="middle-header3 d-flex flex-column align-items-center">
+      <h5>Please contact us via email for any futher questions about GLOBAL CLOUD CONFERENCE!</h5>
+      <a class="middle-header-link text-decoration-none" href="#">ccsummit2015@cckorea.com &gt;</a>
+  </div>
+</section>
 
   <main class="about d-flex flex-column align-items-center">
     <div class="about1 container d-flex flex-column justify-content-center align-items-center">
-      <div class="about1-first-text w-100 align-items-center">
-        <h4>Creative Common Global Summit 2021 logo</h4>
+      <div class="about1-first-text w-100 text-center">
+        <h4>The Global Cloud Conference 2021 logo</h4>
       </div>
-      <div class="about1-second-text">
+      <div class="about1-second-text text-center">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text
@@ -95,9 +100,10 @@
     </div>
   </main>
 
+  <div class="profile-section">
   <div class="profiles d-flex flex-column align-items-center">
     <div class="about2-first">
-      <h1>See the past Cloud Conference</h1>
+      <h2>See the past Cloud Conference</h2>
     </div>
     <div>
       <p>
@@ -124,35 +130,34 @@
       </div>
     </div>
   </div>
+</div>
 
-    <section class="footer1">
-      <div class="footer1-header">
-        <h5>Partner</h5>
-        <div class="border-bottom-footer"></div>
-      </div>
-      <div class="lower-footer">
-        <ul class="d-flex list-unstyled">
-          <li class="fw-bold">Google</li>
-          <li class="fw-bold">mozilla</li>
-          <li class="fw-bold">NAVER</li>
-          <li class="fw-bold">daumkakao</li>
-        </ul>
-      </div>
-    </section>
+  <section class="footer1 d-flex flex-column">
+    <div class="footer1-header position-relative">
+      <h5>Partner</h5>
+      <div class="border-bottom-footer position-absolute"></div>
+    </div>
+    <div class="lower-footer d-flex justify-items-center">
+      <ul class="d-flex list-unstyled">
+        <li class="fw-bold">Google</li>
+        <li class="fw-bold">mozilla</li>
+        <li class="fw-bold">NAVER</li>
+        <li class="fw-bold">daumkakao</li>
+      </ul>
+    </div>
+  </section>
 
   <footer>
-    <div class="footer2">
+    <div class="footer2 d-flex justify-content-center">
       <div class="footer2-one">
         <h1 class="text-dark fw-bold">GiGi</h1>
       </div>
-      <div class="footer2-two">
+      <div class="footer2-two d-flex flex-column text-dark">
         <p>2015, creative common korea. Some rights reserved</p>
-        <p>
-          ，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br />
-          。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从
-        </p>
+        <p>，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br> 。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
       </div>
     </div>
+
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
     integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">

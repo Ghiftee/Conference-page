@@ -12,7 +12,8 @@
 
 <body>
   <!-- first nav -->
-  <nav id="nav-lg" class="container-fluid bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
+  <header>
+  <nav class="container-fluid nav-lg bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
     <ul class="list-unstyled d-flex justify-content-end">
       <li>
         <a href="#" class="text-white"><i class="fab fa-facebook-square fa-lg"></i></a>
@@ -28,7 +29,7 @@
 
   <!-- second nav -->
 
-  <nav id="nav-2" class="container-fluid d-none d-sm-none d-md-none d-lg-flex">
+  <nav class="container-fluid nav-2 d-none d-sm-none d-md-none d-lg-flex">
     <div class="nav-2-left justify-content-start">
       <h1 class="text-dark fw-bold">GiGi</h1>
     </div>
@@ -41,11 +42,11 @@
       </ul>
     </div>
   </nav>
-
+</header>
 
   <!-- mobile view -->
-
-  <nav id="nav-sm" class="dropdown container-fluid d-sm-flex d-lg-none">
+  
+  <nav class="dropdown nav-sm container-fluid d-sm-flex d-lg-none">
     <i id="dropdownMenuLink" role="link" data-bs-toggle="dropdown" aria-expanded="false"
       class="fas fa-bars fa-lg bars"></i>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -54,46 +55,13 @@
       <li><a class="dropdown-item text-muted" href="ticket.html">Get Ticket</a></li>
     </ul>
   </nav>
-
-  <section class="main-page">
-    <img src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image">
-    <div class="center">
-      <div>
-        <p class="first-p">"Hello, Sharing World!"</p>
-        <h1 class="theme fw-bold">
-          The<br>
-          Global Cloud <br>
-          Conference 2021
-        </h1>
-      </div>
-      <div>
-        <p class="second-p">
-          A joyful celebration believing in the value of openness and sharing,
-          creating <br />
-          a positive change with people from over 80 countries is taking place
-          in October, in Korea.
-        </p>
-      </div>
-      <div>
-        <h2>2015.10.15(THU) ~ 16(FRI)</h2>
-        <p class="third-p">
-          @ National Museum of Nigeria, Art Center Lagos and More
-        </p>
-      </div>
-    </div>
-  </section>
-  <br>
-  <br>
-  <br>
+  
   <!-- large screen -->
   <div class="ticket-page">
-    <br>
-    <h1 class="text-center">Select Tickets</h1>
-    <br>
+    <h2 class="text-center ticket">Select Tickets</h2>
     <ul class="d-flex justify-content-center container">
       <li>STEP 1 - Please select the day you want to join the CC Global Summit 2015</li>
     </ul>
-    <br>
     <!-- table -->
     <table class="table container table-bordered table-hover position-relative">
       <thead class="table-dark text-center">
@@ -107,30 +75,35 @@
       <tbody class="text-center">
         <tr>
           <td>Date</td>
-          <td>15. Oct(Thu)</td>
+          <td>15. Oct(Thu)</label> <br></td>
           <td>16. Oct(Fri)</td>
           <td>15-16. Oct(Thu-Fri)</td>
           <td>15-16. Oct (Thu-Fri)</td>
         </tr>
         <tr>
           <td>Normal</td>
-          <td><s>N</s>70,000</td>
-          <td><s>N</s>70,000</td>
-          <td><s>N</s>100,000</td>
-          <td><s>N</s>0</td>
+          <td><label for="amt1"><s>N</s>70,000</label><br><input type="radio" id="amt1" name="amount" value="70k"></td>
+          <td><label for="amt2"><s>N</s>70,000</label><br><input type="radio" id="amt2" name="amount" value="70k2"></td>
+          <td><label for="amt3"><s>N</s>100,000</label><br><input type="radio" id="amt3" name="amount" value="100k"></td>
+          <td><label for="amt4"><s>N</s>0</label><br><input type="radio" id="amt4" name="amount" value="0k"></td>
         </tr>
         <tr>
           <td>Students</td>
-          <td><s>N</s>30,000</td>
-          <td><s>N</s>30,000</td>
-          <td><s>N</s>50,000</td>
-          <td><s>N</s>0</td>
+          <td><label for="amt5"><s>N</s>30,000</label><br><input type="radio" id="amt5" name="amount" value="30k"></td>
+          <td><label for="amt6"><s>N</s>70,000</label><br><input type="radio" id="amt6" name="amount" value="30k2"></td>
+          <td><label for="amt7"><s>N</s>70,000</label><br><input type="radio" id="amt7" name="amount" value="50k"></td>
+          <td><label for="amt8"><s>N</s>0</label><br><input type="radio" id="amt8" name="amount" value="0k2"></td>
         </tr>
       </tbody>
     </table>
     <!-- small screen -->
-    <div class="d-flex d-sm-flex d-md-flex flex-column d-lg-none small-form text-center">
-      <h1>Select your lunch</h1>
+    <div class="d-flex d-sm-flex d-md-flex flex-column d-lg-none small-form">
+      <h2 class="text-center lunch">Select your Lunch</h2>
+      <ul class="d-flex container list-unstyled">
+        <li>STEP 2 - Please select your lunch registered day. There will be no further cost for lunch.</li>
+      </ul>
+      <div class="text-center">
+        <div class="form-one">
       <form action="#">
         <label for="breakfast" class="fw-bold"> Please choose a first-course option</label>
         <br>
@@ -142,8 +115,8 @@
           <option value="Menu4">Menu 4</option>
         </select>
       </form>
-      <br>
-      <br>
+    </div>
+    <div class="form-two">
       <form action="POST">
         <label for="dessert" class="fw-bold"> Please choose a dessert option</label>
         <br>
@@ -156,6 +129,8 @@
         </select>
       </form>
     </div>
+    </div>
+    </div>
     <br>
     <div class="ticketarrow d-none d-sm-none d-md-none d-lg-block">
       <img src="../Conference-page/assets/images/arrow-removebg-preview.png" alt="Error loading image">
@@ -163,7 +138,7 @@
   </div>
   <!-- Lunch section -->
   <div class="ticketpage-second-part container-fluid d-none d-sm-none d-md-none d-lg-block">
-    <h1 class="text-center">Select Your Lunch</h1>
+    <h2 class="text-center">Select Your Lunch</h2>
     <ul class="d-flex justify-content-center container">
       <li>STEP 2 - Please select your lunch registered day. There will be no further cost for lunch.</li>
     </ul>
@@ -225,12 +200,12 @@
     <br>
   </div>
   <!-- Footer -->
-  <section class="footer1">
-    <div class="footer1-header">
+  <section class="footer1 d-flex flex-column">
+    <div class="footer1-header position-relative">
       <h5>Partner</h5>
-      <div class="border-bottom-footer"></div>
+      <div class="border-bottom-footer position-absolute"></div>
     </div>
-    <div class="lower-footer">
+    <div class="lower-footer d-flex justify-items-center">
       <ul class="d-flex list-unstyled">
         <li class="fw-bold">Google</li>
         <li class="fw-bold">mozilla</li>
@@ -241,16 +216,17 @@
   </section>
 
   <footer>
-    <div class="footer2 d-none d-sm-none d-md-none d-lg-flex">
+    <div class="footer2 d-flex justify-content-center">
       <div class="footer2-one">
         <h1 class="text-dark fw-bold">GiGi</h1>
       </div>
-      <div class="footer2-two">
+      <div class="footer2-two d-flex flex-column text-dark">
         <p>2015, creative common korea. Some rights reserved</p>
         <p>，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br> 。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
       </div>
     </div>
   </footer>
+  
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
     integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
   </script>

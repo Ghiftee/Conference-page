@@ -7,84 +7,97 @@
   <link rel="stylesheet" href="assets/css/bootstrap.css" />
   <title>Conference Page</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/f550d44231.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-
-  <nav id="nav-lg" class="container-fluid p-0 bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
-    <ul class="list-unstyled d-flex justify-content-end">
-      <li>
-        <a href="#" class="text-white"><i class="fab fa-facebook-square fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
-      </li>
-      <li><a href="#" class="text-decoration-none text-white">English</a></li>
-      <li><a href="#" class="text-decoration-none text-white">My Page</a></li>
-      <li><a href="#" class="text-decoration-none text-white">Logout</a></li>
-    </ul>
-  </nav>
-
-  <nav id="nav-2" class="container-fluid d-none d-sm-none d-md-none d-lg-flex">
-    <div class="nav-2-left justify-content-start">
-      <h1 class="text-dark fw-bold">GiGi</h1>
-    </div>
-    <div class="nav-2-right">
-      <ul class="list-unstyled d-flex text-decoration-none">
-        <li><a href="index.html" class="text-decoration-none text-muted fw-bold">Home</a></li>
-        <li><a href="about.html" class="text-decoration-none text-muted fw-bold">About</a></li>
-        <li><a href="ticket.html" class="text-decoration-none text-muted fw-bold">Get Ticket</a>
+  <header>
+    <nav class="container-fluid nav-lg p-0 bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
+      <ul class="list-unstyled d-flex justify-content-end">
+        <li>
+          <a href="#" class="text-white"><i class="fab fa-facebook-square fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#" class="text-decoration-none text-white">English</a>
+        </li>
+        <li>
+          <a href="#" class="text-decoration-none text-white">My Page</a>
+        </li>
+        <li>
+          <a href="#" class="text-decoration-none text-white">Logout</a>
         </li>
       </ul>
-    </div>
-  </nav>
+    </nav>
 
-  <nav id="nav-sm" class="dropdown container-fluid d-sm-flex d-lg-none">
-    <i id="dropdownMenuLink" role="link" data-bs-toggle="dropdown" aria-expanded="false" class="fas fa-bars fa-lg bars"></i>
+    <nav class="container-fluid nav-2 d-none d-sm-none d-md-none d-lg-flex">
+      <div class="nav-2-left justify-content-start">
+        <h1 class="text-dark fw-bold">GiGi</h1>
+      </div>
+      <div class="nav-2-right">
+        <ul class="list-unstyled d-flex text-decoration-none">
+          <li>
+            <a href="index.html" class="text-decoration-none text-muted fw-bold">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="text-decoration-none text-muted fw-bold">About</a>
+          </li>
+          <li>
+            <a href="ticket.html" class="text-decoration-none text-muted fw-bold">Get Ticket</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <nav class="dropdown nav-sm container-fluid d-sm-flex d-lg-none">
+    <i id="dropdownMenuLink" role="link" data-bs-toggle="dropdown" aria-expanded="false"
+      class="fas fa-bars fa-lg bars"></i>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
       <li><a class="dropdown-item text-muted" href="index.html">Home</a></li>
       <li><a class="dropdown-item text-muted" href="about.html">About</a></li>
-      <li><a class="dropdown-item text-muted" href="ticket.html">Get Ticket</a></li>
+      <li>
+        <a class="dropdown-item text-muted" href="ticket.html">Get Ticket</a>
+      </li>
     </ul>
   </nav>
 
-  <section class="main-page">
-
-    <img class="theme-img" src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image">
-    <div class="center">
+  <section class="main-page position-relative fw-bold">
+    <img class="theme-img" src="../Conference-page/assets/images/cloud.jpg" alt="Error loading image" />
+    <div class="center position-absolute">
       <div>
         <p class="first-p">"Hello, Sharing World!"</p>
-        <h1 class="theme fw-bold">
-          The<br>
-          Global Cloud <br>
+        <h2 class="theme fw-bold">
+          The<br />
+          Global Cloud <br />
           Conference 2021
-        </h1>
+        </h2>
       </div>
       <div>
         <p class="second-p">
-          “We believe we are moving out of the Ice Age,
-          the Iron Age, the Industrial Age, <br>
+          “We believe we are moving out of the Ice Age, the Iron Age, the
+          Industrial Age, <br />
           the Information Age, to the participation age.
         </p>
       </div>
-        <div>
-          <h5>2015.10.15(THU) ~ 16(FRI)</h5>
-          <p class="third-p text-muted">
-            @ National Museum of Nigeria, Art Center Lagos and More
-          </p>
-        </div>
+      <div>
+        <h3 class="fw-bold text-dark hero-date">2015.10.15(THU) ~ 16(FRI)</h3>
+        <p class="third-p text-muted hero-venue">
+          @ National Museum of Nigeria, Art Center Lagos and More
+        </p>
+      </div>
     </div>
   </section>
 
   <div class="container-fluid bg-dark text-white">
-    <div class=" row justify-content-center">
-      <div class="col-3 title text-center">
+    <div class="row justify-content-center">
+      <div class="col-3 title text-center position-relative">
         Main Program
-        <hr>
+        <hr class="position-absolute" />
       </div>
     </div>
 
@@ -95,7 +108,10 @@
           <i class="fas fa-user-alt"></i>
         </div>
         <h4 class="fw-bold text-dark">Networking Technologies</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
       </div>
 
       <div class="col-12 col-lg-2 d-flex d-sm-flex d-md-flex d-lg-block row-one">
@@ -103,56 +119,70 @@
           <i class="fas fa-user-alt"></i>
         </div>
         <h4 class="fw-bold text-dark">Application and Information Systems</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
       </div>
       <div class="col-12 col-lg-2 d-flex d-sm-flex d-md-flex d-lg-block row-one">
         <div>
           <i class="fas fa-user-alt"></i>
         </div>
         <h4 class="fw-bold text-dark">Big Data and AI Technology</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
       </div>
       <div class="col-12 col-lg-2 d-flex d-sm-flex d-md-flex d-lg-block row-one">
         <div>
           <i class="fas fa-user-alt"></i>
         </div>
         <h4 class="fw-bold text-dark">Cloud and Grid Computing</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
       </div>
       <div class="col-12 col-lg-2 d-flex d-sm-flex d-md-flex d-lg-block row-one">
         <div>
           <i class="fas fa-user-alt"></i>
         </div>
         <h4 class="fw-bold text-dark">Quantitative Management</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
       </div>
-      <div class="col">
-      </div>
+      <div class="col"></div>
 
       <div class="row justify-content-center">
-        <div class="col-3 end-title">
+        <div class="col-3 end-title position-relative">
           SEE THE WHOLE PROGRAM
-          <hr>
+          <hr class="position-absolute" />
         </div>
       </div>
-
     </div>
   </div>
 
   <!-- large screen -->
   <article class="article2 container-fluid">
-    <div class="article2-header">
+    <div class="article2-header d-flex position-relative align-items-center justify-content-center">
       <p>Featured Speakers</p>
-      <div class="border-bottom"></div>
+      <div class="border-bottom position-absolute"></div>
     </div>
 
     <div class="article2-articles container">
-      <div class="article-elements">
-        <div class="article2-articles1">
-          <div><img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
-              alt="Error loading image"></div>
-          <div class="second-img"><img class="article-elements-img"
-              src="../Conference-page/assets/images/david-friend.png" alt="Error loading image"></div>
+      <div class="article-elements d-flex">
+        <div class="article2-articles1 position-relative">
+          <div>
+            <img class="article-elements-img-1 position-absolute"
+              src="../Conference-page/assets/images/no-background.png" alt="Error loading image" />
+          </div>
+          <div class="second-img">
+            <img class="article-elements-img position-absolute" src="../Conference-page/assets/images/david-friend.png"
+              alt="Error loading image" />
+          </div>
         </div>
 
         <div class="div2">
@@ -161,17 +191,24 @@
             <h5>Cloud Computing Expert</h5>
           </div>
 
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
         </div>
       </div>
 
-      <div class="article-elements">
+      <div class="article-elements d-flex">
         <div class="article2-articles1">
-          <div><img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
-              alt="Error loading image"></div>
-          <div class="second-img"><img class="article-elements-img"
-              src="../Conference-page/assets/images/katie-weaver.png" alt="Error loading image"></div>
+          <div>
+            <img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
+              alt="Error loading image" />
+          </div>
+          <div class="second-img">
+            <img class="article-elements-img" src="../Conference-page/assets/images/katie-weaver.png"
+              alt="Error loading image" />
+          </div>
         </div>
 
         <div class="div2">
@@ -180,17 +217,23 @@
             <h5>Cloud Computing Expert</h5>
           </div>
 
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
         </div>
       </div>
 
-      <div class="article-elements">
+      <div class="article-elements d-flex">
         <div class="article2-articles1">
-          <div><img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
-              alt="Error loading image"></div>
-          <div class="second-img"><img class="article-elements-img"
-              src="../Conference-page/assets/images/Linda-Liukas.jpg" alt="Error loading image">
+          <div>
+            <img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
+              alt="Error loading image" />
+          </div>
+          <div class="second-img">
+            <img class="article-elements-img" src="../Conference-page/assets/images/Linda-Liukas.jpg"
+              alt="Error loading image" />
           </div>
         </div>
 
@@ -200,17 +243,24 @@
             <h5>Cloud Computing Expert</h5>
           </div>
 
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
         </div>
       </div>
 
-      <div class="article-elements">
+      <div class="article-elements d-flex">
         <div class="article2-articles1">
-          <div><img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
-              alt="Error loading image"></div>
-          <div class="second-img"><img class="article-elements-img"
-              src="../Conference-page/assets/images/Magnus-Penker.jpg" alt="Error loading image"></div>
+          <div>
+            <img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
+              alt="Error loading image" />
+          </div>
+          <div class="second-img">
+            <img class="article-elements-img" src="../Conference-page/assets/images/Magnus-Penker.jpg"
+              alt="Error loading image" />
+          </div>
         </div>
 
         <div class="div2">
@@ -219,17 +269,24 @@
             <h5>Cloud Computing Expert</h5>
           </div>
 
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
         </div>
       </div>
 
-      <div class="article-elements">
+      <div class="article-elements d-flex">
         <div class="article2-articles1">
-          <div><img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
-              alt="Error loading image"></div>
-          <div class="second-img"><img class="article-elements-img"
-              src="../Conference-page/assets/images/RichardVanHooijdonk.jpg" alt="Error loading image"></div>
+          <div>
+            <img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
+              alt="Error loading image" />
+          </div>
+          <div class="second-img">
+            <img class="article-elements-img" src="../Conference-page/assets/images/RichardVanHooijdonk.jpg"
+              alt="Error loading image" />
+          </div>
         </div>
 
         <div class="div2">
@@ -238,17 +295,24 @@
             <h5>Cloud Computing Expert</h5>
           </div>
 
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
         </div>
       </div>
 
-      <div class="article-elements">
+      <div class="article-elements d-flex">
         <div class="article2-articles1">
-          <div><img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
-              alt="Error loading image"></div>
-          <div class="second-img"><img class="article-elements-img"
-              src="../Conference-page/assets/images/stephanie-atkinson.png" alt="Error loading image"></div>
+          <div>
+            <img class="article-elements-img-1" src="../Conference-page/assets/images/no-background.png"
+              alt="Error loading image" />
+          </div>
+          <div class="second-img">
+            <img class="article-elements-img" src="../Conference-page/assets/images/stephanie-atkinson.png"
+              alt="Error loading image" />
+          </div>
         </div>
 
         <div class="div2">
@@ -257,19 +321,22 @@
             <h5>Cloud Computing Expert</h5>
           </div>
 
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
         </div>
       </div>
     </div>
   </article>
 
-  <section class="footer1">
-    <div class="footer1-header">
+  <section class="footer1 d-flex flex-column">
+    <div class="footer1-header position-relative">
       <h5>Partner</h5>
-      <div class="border-bottom-footer"></div>
+      <div class="border-bottom-footer position-absolute"></div>
     </div>
-    <div class="lower-footer">
+    <div class="lower-footer d-flex justify-items-center">
       <ul class="d-flex list-unstyled">
         <li class="fw-bold">Google</li>
         <li class="fw-bold">mozilla</li>
@@ -280,16 +347,18 @@
   </section>
 
   <footer>
-    <div class="footer2">
+    <div class="footer2 d-flex justify-content-center">
       <div class="footer2-one">
         <h1 class="text-dark fw-bold">GiGi</h1>
       </div>
-      <div class="footer2-two">
+      <div class="footer2-two d-flex flex-column text-dark">
         <p>2015, creative common korea. Some rights reserved</p>
-        <p>，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br> 。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
+        <p>
+          ，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br />
+          。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从
+        </p>
       </div>
     </div>
-
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
     integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
