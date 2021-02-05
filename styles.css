@@ -309,10 +309,6 @@
   margin-top: 10px;
 }
 
-.about-page-section-link {
-  font-size: 10px;
-}
-
 /* About page about-past-conferences */
 .past-conference-section {
   margin-bottom: 100px;
@@ -388,7 +384,7 @@ table {
 
 .ticketarrow {
   position: absolute;
-  top: 81%;
+  top: 88%;
   left: 46%;
 }
 
@@ -525,6 +521,10 @@ table {
 
   .about-page-section-contact {
     font-size: 5px;
+  }
+
+  .about-page-section-link {
+    font-size: 12px;
   }
 
   .ticket-form {
