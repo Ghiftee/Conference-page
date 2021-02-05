@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <title>Tickets Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/f550d44231.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- first nav -->
+  <header>
+  <nav class="container-fluid nav-lg bg-dark d-none d-sm-none d-md-none d-lg-block pb-1">
+    <ul class="list-unstyled d-flex justify-content-end">
+      <li>
+        <a href="#" class="text-white"><i class="fab fa-facebook-square fa-lg"></i></a>
+      </li>
+      <li>
+        <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+      </li>
+      <li><a href="#" class="text-decoration-none text-white">English</a></li>
+      <li><a href="#" class="text-decoration-none text-white">My Page</a></li>
+      <li><a href="#" class="text-decoration-none text-white">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- second nav -->
+
+  <nav class="container-fluid nav-2 d-none d-sm-none d-md-none d-lg-flex">
+    <div class="nav-2-left justify-content-start">
+      <h1 class="text-dark fw-bold">GiGi</h1>
+    </div>
+    <div class="nav-2-right">
+      <ul class="list-unstyled d-flex text-decoration-none">
+        <li><a href="index.html" class="text-decoration-none text-muted fw-bold">Home</a></li>
+        <li><a href="about.html" class="text-decoration-none text-muted fw-bold">About</a></li>
+        <li><a href="ticket.html" class="text-decoration-none text-muted fw-bold">Get Ticket</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+  <!-- mobile view -->
+  
+  <nav class="dropdown nav-sm container-fluid d-sm-flex d-lg-none">
+    <i id="dropdownMenuLink" role="link" data-bs-toggle="dropdown" aria-expanded="false"
+      class="fas fa-bars fa-lg bars"></i>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item text-muted" href="index.html">Home</a></li>
+      <li><a class="dropdown-item text-muted" href="about.html">About</a></li>
+      <li><a class="dropdown-item text-muted" href="ticket.html">Get Ticket</a></li>
+    </ul>
+  </nav>
+  
+  <!-- large screen -->
+  <div class="ticket-form">
+    <h2 class="text-center ticket-form-action">Select Tickets</h2>
+    <ul class="d-flex justify-content-center container">
+      <li>STEP 1 - Please select the day you want to join the CC Global Summit 2015</li>
+    </ul>
+    <!-- table -->
+    <div class="table-responsive">
+    <table class="table container table-bordered table-hover position-relative">
+      <thead class="table-dark text-center">
+        <tr>
+          <th>Ticket</th>
+          <th>1-Day-Ticket</th>
+          <th colspan="2">2-Day-Ticket</th>
+          <th>Affiliate/ <br>Partners</th>
+        </tr>
+      </thead>
+      <tbody class="text-center">
+        <tr>
+          <td style="word-wrap: break-word;min-width: 5px;max-width: 10px;">Date</td>
+          <td style="word-wrap: break-word;min-width: 5px;max-width: 10px;">15 Oct (Thu)</td>
+          <td style="word-wrap: break-word;min-width: 5px;max-width: 10px;">16. Oct (Fri)</td>
+          <td style="word-wrap: break-word;min-width: 5px;max-width: 10px;">15-16. Oct (Thu-Fri)</td>
+          <td style="word-wrap: break-word;min-width: 5px;max-width: 10px;">15-16. Oct (Thu-Fri)</td>
+        </tr>
+        <tr>
+          <td>Normal</td>
+          <td><label for="amt1"><s>N</s>70,000</label><br><input type="radio" id="amt1" name="amount" value="70k"></td>
+          <td><label for="amt2"><s>N</s>70,000</label><br><input type="radio" id="amt2" name="amount" value="70k2"></td>
+          <td><label for="amt3"><s>N</s>100,000</label><br><input type="radio" id="amt3" name="amount" value="100k"></td>
+          <td><label for="amt4"><s>N</s>0</label><br><input type="radio" id="amt4" name="amount" value="0k"></td>
+        </tr>
+        <tr>
+          <td>Students</td>
+          <td><label for="amt5"><s>N</s>30,000</label><br><input type="radio" id="amt5" name="amount" value="30k"></td>
+          <td><label for="amt6"><s>N</s>70,000</label><br><input type="radio" id="amt6" name="amount" value="30k2"></td>
+          <td><label for="amt7"><s>N</s>70,000</label><br><input type="radio" id="amt7" name="amount" value="50k"></td>
+          <td><label for="amt8"><s>N</s>0</label><br><input type="radio" id="amt8" name="amount" value="0k2"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    <!-- small screen -->
+    <div class="d-flex d-sm-flex d-md-flex flex-column d-lg-none small-form">
+      <h2 class="text-center lunch-action-sm">Select your Lunch</h2>
+      <ul class="d-flex container list-unstyled">
+        <li>STEP 2 - Please select your lunch registered day. There will be no further cost for lunch.</li>
+      </ul>
+      <div class="text-center">
+        <div class="form-one">
+      <form action="#">
+        <label for="breakfast" class="fw-bold"> Please choose a first-course option</label>
+        <br>
+        <br>
+        <select name="breakfast" id="breakfast">
+          <option value="Menu1">Menu 1</option>
+          <option value="Menu2">Menu 2</option>
+          <option value="Menu3">Menu 3</option>
+          <option value="Menu4">Menu 4</option>
+        </select>
+      </form>
+    </div>
+    <div class="form-two">
+      <form action="POST">
+        <label for="dessert" class="fw-bold"> Please choose a dessert option</label>
+        <br>
+        <br>
+        <select name="breakfast" id="dessert">
+          <option value="Menu1">Menu 1</option>
+          <option value="Menu2">Menu 2</option>
+          <option value="Menu3">Menu 3</option>
+          <option value="Menu4">Menu 4</option>
+        </select>
+      </form>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="ticketarrow d-none d-sm-none d-md-none d-lg-block">
+      <img src="../Conference-page/assets/images/arrow-removebg-preview.png" alt="Error loading image">
+    </div>
+  </div>
+
+  <!-- Lunch section -->
+  <div class="lunch-section container-fluid d-none d-sm-none d-md-none d-lg-block">
+    <h2 class="text-center">Select Your Lunch</h2>
+    <ul class="d-flex justify-content-center container">
+      <li>STEP 2 - Please select your lunch registered day. There will be no further cost for lunch.</li>
+    </ul>
+
+    <div class="first-form">
+      <h2 class="text-center servings">First Course</h2>
+      <form class="row form-input">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault1">Menu 1</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault2">Menu 2</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault3">Menu 3</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault4">Menu 4</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+        </div>
+        <div class="col-2">
+        </div>
+      </form>
+    </div>
+    <!-- more lunch options -->
+    <div class="second-form d-none d-sm-none d-md-none d-lg-block">
+      <h2 class="text-center servings">Dessert</h2>
+      <form class="row g-3">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault5">Menu 1</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault6">Menu 2</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault7">Menu 3</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+        </div>
+        <div class="col-2">
+          <label class="form-check-label" for="flexRadioDefault8">Menu 4</label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
+        </div>
+        <div class="col-2">
+        </div>
+      </form>
+    </div>
+    <div>
+      <button class="btn submit-button text-white">SUBMIT FORM </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <section class="top-footer d-flex flex-column">
+    <div class="top-footer-heading position-relative">
+      <h5>Partners</h5>
+      <div class="border-bottom-footer position-absolute"></div>
+    </div>
+    <div class="conference-partners d-flex justify-items-center">
+      <ul class="d-flex list-unstyled">
+        <li class="fw-bold"><img class="footer-partners-img" src="https://webstockreview.net/images/google-logo-white-png-4.png" alt="Error loading image"></li>
+        <li class="fw-bold"><img class="footer-partners-img" src="http://assets.stickpng.com/images/58481046cef1014c0b5e494f.png" alt="Error loading image"></li>
+        <li class="fw-bold"><img class="footer-partners-img" src="https://comparecamp.com/media/uploads/2019/03/16.jpg" alt="Error loading image"></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="lower-footer d-flex justify-content-center">
+      <div class="lower-footer-logo">
+        <h2 class="text-dark fw-bold">GiGi</h2>
+      </div>
+      <div class="lower-footer-p d-flex flex-column text-dark">
+        <p>2015, creative common korea. Some rights reserved</p>
+        <p>，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字 <br> 。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+  </script>
+  <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
