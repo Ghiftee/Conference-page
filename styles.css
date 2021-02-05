@@ -465,12 +465,12 @@ table {
     width: 250px;
     margin-left: -10px;
   }
-  
+
   .about-speakers {
     margin-left: 150px;
     padding-right: -1px;
   }
-  
+
   .featured-speakers-section {
     grid-template-columns: 1fr;
     margin-top: 50px;
