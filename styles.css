@@ -309,6 +309,10 @@
   margin-top: 10px;
 }
 
+.about-page-section-link {
+  font-size: 10px;
+}
+
 /* About page about-past-conferences */
 .past-conference-section {
   margin-bottom: 100px;
@@ -451,18 +455,30 @@ table {
     padding-right: 15px;
     margin-top: 10%;
   }
-
+  
   .about-past-conferences-details-text {
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 90px;
     text-align: center;
     color: #fff;
   }
 
+  .about-past-conferences-details img {
+    height: 100px;
+    width: 250px;
+    margin-left: -10px;
+  }
+  
+  .about-speakers {
+    margin-left: 150px;
+    padding-right: -1px;
+  }
+  
   .featured-speakers-section {
     grid-template-columns: 1fr;
     margin-top: 50px;
+    margin-left: -15px;
   }
 
   .about-logo-desc-header {
